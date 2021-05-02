@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EEE14A89263EDD4300253461 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = EEE14A82263EDD4300253461 /* C.wav */; };
+		EEE14A8A263EDD4300253461 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = EEE14A83263EDD4300253461 /* D.wav */; };
+		EEE14A8B263EDD4300253461 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = EEE14A84263EDD4300253461 /* A.wav */; };
+		EEE14A8C263EDD4300253461 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = EEE14A85263EDD4300253461 /* E.wav */; };
+		EEE14A8D263EDD4300253461 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = EEE14A86263EDD4300253461 /* B.wav */; };
+		EEE14A8E263EDD4300253461 /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = EEE14A87263EDD4300253461 /* F.wav */; };
+		EEE14A8F263EDD4300253461 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = EEE14A88263EDD4300253461 /* G.wav */; };
 		EEEB5C8F263EDA6B00503728 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB5C8E263EDA6B00503728 /* AppDelegate.swift */; };
 		EEEB5C91263EDA6B00503728 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB5C90263EDA6B00503728 /* SceneDelegate.swift */; };
 		EEEB5C93263EDA6B00503728 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB5C92263EDA6B00503728 /* ViewController.swift */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EEE14A82263EDD4300253461 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		EEE14A83263EDD4300253461 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		EEE14A84263EDD4300253461 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		EEE14A85263EDD4300253461 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		EEE14A86263EDD4300253461 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		EEE14A87263EDD4300253461 /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		EEE14A88263EDD4300253461 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
 		EEEB5C8B263EDA6B00503728 /* xylophoneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xylophoneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEB5C8E263EDA6B00503728 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEEB5C90263EDA6B00503728 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				EEEB5C8D263EDA6B00503728 /* xylophoneApp */,
+				EEEB5CA7263EDB6200503728 /* sounds */,
 				EEEB5C8C263EDA6B00503728 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,6 +80,20 @@
 				EEEB5C9C263EDA6C00503728 /* Info.plist */,
 			);
 			path = xylophoneApp;
+			sourceTree = "<group>";
+		};
+		EEEB5CA7263EDB6200503728 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EEE14A84263EDD4300253461 /* A.wav */,
+				EEE14A86263EDD4300253461 /* B.wav */,
+				EEE14A82263EDD4300253461 /* C.wav */,
+				EEE14A83263EDD4300253461 /* D.wav */,
+				EEE14A85263EDD4300253461 /* E.wav */,
+				EEE14A87263EDD4300253461 /* F.wav */,
+				EEE14A88263EDD4300253461 /* G.wav */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEEB5C9B263EDA6C00503728 /* LaunchScreen.storyboard in Resources */,
+				EEE14A8B263EDD4300253461 /* A.wav in Resources */,
+				EEE14A8C263EDD4300253461 /* E.wav in Resources */,
+				EEE14A89263EDD4300253461 /* C.wav in Resources */,
+				EEE14A8D263EDD4300253461 /* B.wav in Resources */,
+				EEE14A8E263EDD4300253461 /* F.wav in Resources */,
+				EEE14A8A263EDD4300253461 /* D.wav in Resources */,
+				EEE14A8F263EDD4300253461 /* G.wav in Resources */,
 				EEEB5C98263EDA6C00503728 /* Assets.xcassets in Resources */,
 				EEEB5C96263EDA6B00503728 /* Main.storyboard in Resources */,
 			);
